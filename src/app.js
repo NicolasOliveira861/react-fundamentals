@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './header';
 import Post from './post';
 
 const category = 'Posts da semana';
@@ -6,8 +7,9 @@ const category = 'Posts da semana';
 function App() {
   return (
     <>
-      <h1>JStacks's Blog</h1>
-      <h2>{category}</h2>
+      <Header title="JStacks's Blog">
+        <h2>{category}</h2>
+      </Header>
 
       <hr />
 
