@@ -13,12 +13,48 @@ function App() {
 
       <hr />
 
-      <Post title="Title" subtitle="Subtitle" />
-      <Post title="Title" subtitle="Subtitle" />
-      <Post title="Title" subtitle="Subtitle" />
-      <Post title="Title" subtitle="Subtitle" />
-      <Post title="Title" subtitle="Subtitle" />
-      <Post title="Title" subtitle="Subtitle" />
+      <Post
+        likes={20}
+        post={{
+          title: 'Title',
+          subtitle: 'Subtitle',
+        }}
+      />
+      <Post
+        likes={20}
+        post={{
+          title: 'Title',
+          subtitle: 'Subtitle',
+        }}
+      />
+      <Post
+        likes={20}
+        post={{
+          title: 'Title',
+          subtitle: 'Subtitle',
+        }}
+      />
+      <Post
+        likes={20}
+        post={{
+          title: 'Title',
+          subtitle: 'Subtitle',
+        }}
+      />
+      <Post
+        likes={20}
+        post={{
+          title: 'Title',
+          subtitle: 'Subtitle',
+        }}
+      />
+      <Post
+        likes={20}
+        post={{
+          title: 'Title',
+          subtitle: 'Subtitle',
+        }}
+      />
     </>
   );
 }
