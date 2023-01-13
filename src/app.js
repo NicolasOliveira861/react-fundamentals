@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { ThemeProvider } from './context';
 import Header from './header';
 import Post from './post';
 
@@ -47,7 +48,7 @@ function App() {
   }
 
   return (
-    <>
+    <ThemeProvider>
       <Header title="JStacks's Blog">
         <h2>
           {category}
@@ -65,7 +66,7 @@ function App() {
           post={post}
         />
       ))}
-    </>
+    </ThemeProvider>
   );
 }
 
